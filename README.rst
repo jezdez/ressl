@@ -30,6 +30,12 @@ To use a different port, use the server's options, e.g.::
 
     gunicorn -b 127.0.0.1:12345 ressl
 
+You must set at least one envrionment variable for ressl to work:
+``RESSL_ALLOWED_HOSTS``. It's a comma separated list of host names
+ressl is allowed to redirect, e.g.::
+
+    RESSL_ALLOWED_HOSTS=mycompany.com,myblog.me,myphotos.com gunicorn -b 127.0.0.1:12345 ressl
+
 Debugging is done by setting the environment variable ``RESSL_DEBUG``
 to any value::
 
