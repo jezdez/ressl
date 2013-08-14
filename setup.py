@@ -24,6 +24,7 @@ setup(
     long_description=read('README.rst'),
     author='Jannis Leidel',
     author_email='jannis@leidel.info',
+    license='BSD',
     url='http://github.com/jezdez/ressl/',
     py_modules=['ressl'],
     zip_safe=False,
