@@ -1,7 +1,7 @@
 import os
 from importd import d
 
-__version__ = '0.2'
+__version__ = '0.2.1'
 
 d(
     DEBUG='RESSL_DEBUG' in os.environ,
