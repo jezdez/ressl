@@ -52,7 +52,6 @@ Feedback
 --------
 
 Feel free to open tickets at https://github.com/jezdez/ressl/issues.
-Say thanks at https://www.gittip.com/jezdez/.
 
 .. _gunicorn: http://gunicorn.org/
 .. _uWSGI: https://github.com/unbit/uwsgi
